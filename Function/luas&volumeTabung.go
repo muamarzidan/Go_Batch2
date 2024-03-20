@@ -9,10 +9,6 @@ func main() {
 	fmt.Println("Luas Tabung : ", luasTabung(jariAlas, Tinggi))
 }
 
-func f(x, y int) int {
-	return x + y
-}
-
 func Tabung(jariAlas, Tinggi float64) float64 {
 	return 3.14 * jariAlas * jariAlas * Tinggi
 }
